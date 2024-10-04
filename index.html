@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-black text-white">
+    <div class="box md:flex xl:w-[100%] xl:flex justify-center ">
+
+        <div class="profile flex justify-evenly items-center px-1 py-1 sticky md:hidden">
+            <div class="image flex">
+                <img class="rounded-3xl w-[50%]"
+                    src="https://pbs.twimg.com/profile_images/1835944975026233344/vjyJdukV_x96.jpg" alt="">
+            </div>
+
+            <div class="logo mx-3 my-2">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="#FFFFFF"
+                    class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="btn">
+                <button class="px-8 py-1 text-sky-600 font-bold rounded-2xl">Get Premium</button>
+            </div>
+        </div>
+
+        <div class="left text-white h-screen hidden md:block md:justify-center md:items-center lg:justify-start md:w-[40%] md:px-5 xl:justify-start"
+            style="position: sticky; top: 0; padding: 10px 20px;">
+
+            <div class="list xl:justify-start">
+                <ul class="flex flex-col font-bold lg:w-[30%]">
+                    <li
+                        class="flex gap-3 px-2 py-2 ">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="#FFFFFF"
+                            class="w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#e8eaed">
+                            <path
+                                d="M226.67-186.67h140v-246.66h226.66v246.66h140v-380L480-756.67l-253.33 190v380ZM160-120v-480l320-240 320 240v480H526.67v-246.67h-93.34V-120H160Zm320-352Z" />
+                        </svg><span class="md:hidden xl:block">Home</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg><span class="md:hidden xl:block">Explore</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg><span class="md:hidden xl:block">Notification</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg><span class="md:hidden xl:block">Message</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M146.67-200q-27 0-46.84-19.83Q80-239.67 80-266.67v-426.66q0-27 19.83-46.84Q119.67-760 146.67-760h666.66q27 0 46.84 19.83Q880-720.33 880-693.33v426.66q0 27-19.83 46.84Q840.33-200 813.33-200H146.67Zm406.66-313.33h260v-180h-260v180ZM146.67-266.67h340v-426.66h-340v426.66Zm173.33-160q-21.67 0-37.5-15.83-15.83-15.83-15.83-37.83t15.83-37.5q15.83-15.5 37.83-15.5t37.5 15.55q15.5 15.56 15.5 37.78 0 21.67-15.55 37.5-15.56 15.83-37.78 15.83Zm233.33 160h260v-180h-260v180Z" />
+                    </svg><span class="md:hidden xl:block">Grok</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M0-240v-56.33q0-40.05 42.33-65.19 42.34-25.15 111.25-25.15 12.45 0 23.93.5 11.49.5 22.49 2.27-10 18.57-15 38.11-5 19.55-5 40.79v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-21.91-4.5-41.29t-14.17-37.56q11-1.82 22.28-2.32 11.29-.5 23.06-.5 69 0 111.16 24.68Q960-337.31 960-296.33V-240H780Zm-471.67-66.67H652v-4q-3.33-31.33-52.17-52Q551-383.33 480-383.33t-119.83 20.66Q311.33-342 308.33-310v3.33ZM153.04-420q-30.04 0-51.54-21.54T80-493.33q0-30.67 21.54-52 21.54-21.34 51.79-21.34 30.67 0 52 21.34 21.34 21.33 21.34 52.29 0 30.04-21.34 51.54Q184-420 153.04-420Zm653.34 0q-30.05 0-51.55-21.54-21.5-21.54-21.5-51.79 0-30.67 21.55-52 21.54-21.34 51.79-21.34 30.66 0 52 21.34Q880-524 880-493.04q0 30.04-21.33 51.54-21.34 21.5-52.29 21.5ZM480-480q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm.23-66.67q22.77 0 37.94-15.4 15.16-15.4 15.16-38.16 0-22.77-15.26-37.94-15.27-15.16-37.84-15.16-22.56 0-38.06 15.26-15.5 15.27-15.5 37.84 0 22.56 15.4 38.06 15.4 15.5 38.16 15.5Zm.1 240ZM480-600Z" />
+                    </svg><span class="md:hidden xl:block">Communities</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m387-412 35-114-92-74h114l36-112 36 112h114l-93 74 35 114-92-71-93 71ZM240-40v-309q-38-42-59-96t-21-115q0-134 93-227t227-93q134 0 227 93t93 227q0 61-21 115t-59 96v309l-240-80-240 80Zm240-280q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70ZM320-159l160-41 160 41v-124q-35 20-75.5 31.5T480-240q-44 0-84.5-11.5T320-283v124Zm160-62Z"/></svg><span class="md:hidden xl:block">Premium</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg><span class="md:hidden xl:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex gap-3 hover: boader hover:bg-stone-900 rounded-3xl px-2 py-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/></svg><span class="md:hidden xl:block">More</span>
+                    </li>
+
+                    <div class="postbtn flex justify-center rounded-full items-center border px-5 md:hidden xl:block">
+                        <p class="flex justify-center py-2 rounded-full" style="background-color: rgba(0, 255, 255, 0.896);">Post</p>
+                    </div>
+
+                    <div class="penbtn my-3 py-2 px-2 md:block xl:hidden" style="width: 60px; height: 60px; border-radius: 50%; background-color: rgb(0, 111, 180);">
+                        <svg style="padding-left: 7px;" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                            fill="#e8eaed">
+                            <path
+                                d="M160-120v-142l556.33-556q11.34-11.33 24-16.67Q753-840 766.67-840q13.33 0 25.83 5.33Q805-829.33 816-818l42 42q11.33 10.33 16.67 22.83 5.33 12.5 5.33 26.5 0 13-5.33 26-5.34 13-16.67 24.34L302-120H160Zm66.67-66.67h48l428.33-428L679-639l-24.33-24-428 428.33v48Zm587.33-539L765.67-774 814-725.67ZM679-639l-24.33-24L703-614.67 679-639ZM560-120q76.67 0 138.33-36.67Q760-193.33 760-260q0-38.67-26-69.67t-78.67-50l-51 51q41 11.34 65 30 24 18.67 24 38.67 0 29-39.16 51.17Q615-186.67 560-186.67q-13.67 0-23.5 9.5t-9.83 23.84q0 13.66 9.83 23.5Q546.33-120 560-120ZM221-418l52-52q-42.67-11.33-64.5-23.83-21.83-12.5-21.83-26.17 0-14.67 20.33-28.33Q227.33-562 291.33-587q84.67-33.33 113.34-62.67 28.66-29.33 28.66-69.66 0-55.67-42-88.17T280-840q-43 0-77.5 15t-52.17 37.33q-9 10.34-8 23.67 1 13.33 12.67 22 11 9 24.67 7.33 13.66-1.66 22.66-10.66 14.67-14.67 33-21.34 18.34-6.66 44.67-6.66 44.33 0 65.5 16t21.17 38q0 18-18.5 31.83-18.5 13.83-83.5 39.5-89.34 34.33-117 62.5Q120-557.33 120-520q0 32 24.33 59.5Q168.67-433 221-418Z" />
+                        </svg>
+                    </div>
+                    
+                </ul>
+            </div>
+            <br>
+            <div class="profile py-0 flex sticky bottom-0 lg:w-auto lg:mt-1 xl:m-4">
+                <div class="flex justify-center items-center hover: boader hover:bg-stone-900 rounded-3xl h-14">
+                    <div class="img">
+                        <img class="xl:w-[80%] rounded-full justify-center items-center"
+                            src=" https://pbs.twimg.com/profile_images/1835944975026233344/vjyJdukV_x96.jpg" alt="">
+                    </div>
+                    <div class="flex py-2 justify-between items-center w-[80%]">
+                        <div class="md:hidden xl:block">
+                            <h6>Roshan Yadav</h6>
+                            <p class="text-[12px]">@Roshan_0707</p>
+                        </div>
+                        <div class="more md:hidden xl:block">
+                            <img src="/Images/More.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="middle md:w-[60%] xl:w-[50%] md:sticky md:top-0"
+            style="border-left: 0.1px solid rgb(59, 59, 59);border-right: 0.1px solid rgb(59, 59, 59)">
+
+            <div class="top bg-black text-white opacity-[100] md:opacity-80 backdrop-blur-3xl sticky top-0">
+                <div class="top flex items-center justify-evenly py-3">
+                    <div class="topleft flex">
+                        <div>
+                            <h2>For You</h2>
+                        </div>
+                    </div>
+                    <div class="topright flex gap-4">
+                        <h2>Following</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+
+            <div class="what flex px-2">
+
+                <div class="my-5 items-center">
+                    <div class="img w-[75%]">
+                        <img class="rounded-3xl" alt="Roshan Yadav" draggable="true"
+                            src="https://pbs.twimg.com/profile_images/1835944975026233344/vjyJdukV_bigger.jpg"
+                            class="css-9pa8cd" />
+                    </div>
+                </div>
+
+                <div class="w-[100%] items-center justify-between">
+                    <div class="mt-5 md:my-5">
+                        <input class="bg-black text-xl w-full py-1 px-2" type="text" placeholder="What is happening?!">
+                    </div>
+
+                    <div class="flex w-[95%] items-center justify-between">
+                        <div class="flex py-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm40-80h480L570-480 450-320l-90-120-120 160Zm-40 80v-560 560Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M340-400h40q17 0 28.5-11.5T420-440v-40h-40v40h-40v-80h80q0-17-11.5-28.5T380-560h-40q-17 0-28.5 11.5T300-520v80q0 17 11.5 28.5T340-400Zm120 0h40v-160h-40v160Zm80 0h40v-60h60v-40h-60v-20h80v-40H540v160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M480-560h200v-80H480v80Zm0 240h200v-80H480v80ZM360-520q33 0 56.5-23.5T440-600q0-33-23.5-56.5T360-680q-33 0-56.5 23.5T280-600q0 33 23.5 56.5T360-520Zm0 240q33 0 56.5-23.5T440-360q0-33-23.5-56.5T360-440q-33 0-56.5 23.5T280-360q0 33 23.5 56.5T360-280ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M620-520q25 0 42.5-17.5T680-580q0-25-17.5-42.5T620-640q-25 0-42.5 17.5T560-580q0 25 17.5 42.5T620-520Zm-280 0q25 0 42.5-17.5T400-580q0-25-17.5-42.5T340-640q-25 0-42.5 17.5T280-580q0 25 17.5 42.5T340-520Zm140 260q68 0 123.5-38.5T684-400H276q25 63 80.5 101.5T480-260Zm0 180q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M200-640h560v-80H200v80Zm0 0v-80 80Zm0 560q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v227q-19-9-39-15t-41-9v-43H200v400h252q7 22 16.5 42T491-80H200Zm520 40q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Zm67-105 28-28-75-75v-112h-40v128l87 87Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px"
+                                fill="#2854C5">
+                                <path
+                                    d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
+                            </svg>
+                        </div>
+                        <button class="rounded-xl bg-blue-500 px-3 font-bold hover:bg-sky-500 md:w-[15%]">Post</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+
+            <div class="cardcontainer">
+                <div class="card flex">
+                    <div class="mx-3 my-3 w-[10%] items-center justify-center">
+                        <div class="img">
+                            <img class="rounded-3xl" style="height: 50px; width: 50px;" alt="Roshan Yadav" draggable="true"
+                                src="https://pbs.twimg.com/profile_images/1833509376528945157/5AeMNn9f_x96.jpg"
+                                class="css-9pa8cd" />
+                        </div>
+                    </div>
+                    <div class="my-2 w-[100%] items-center justify-between">
+                        <div class="userName flex items-center font-bold" style="padding-left: -35px;">
+                            <p>Narendra Modi</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="24px" viewBox="0 0 22 22"
+                                aria-label="Verified account" role="img"
+                                class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                data-testid="icon-verified">
+                                <g>
+                                    <path clip-rule="evenodd"
+                                        d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                        fill="#1393ec" fill-rule="evenodd"></path>
+                                </g>
+                            </svg>
+                            <p style="opacity: 0.5;" class="px-2">@narendramodi</p>
+                            <p style="opacity: 0.5;">. 19h</p>
+                        </div>
+                        <div class="contain my-1 mr-5" style="max-height: 140px; overflow:hidden; overflow-x: hidden;">
+                            <span>
+                                Humbled and honoured to receive so much warmth from people.
+                                <br /><br />
+                                I thank each and every person who has conveyed birthday greetings to me. This affection
+                                gives me immense strength to keep working harder for the people.
+                                <br /><br />
+                                This is also the time our third term completes 100 days. I am glad that the last 100
+                                days have been marked by a series of pro-people and development oriented decisions,
+                                which will add strength in our pursuit of building a Viksit Bharat.
+                                <br /><br />
+                                Several people have taken part in social service efforts today. I salute their spirit
+                                and convey my appreciation for these efforts.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+            </div>
+
+            <div class="cardcontainer">
+                <div class="card flex">
+                    <div class="mx-3 my-3 w-[10%] items-center justify-center">
+                        <div class="img">
+                            <img class="rounded-3xl" alt="Roshan Yadav" draggable="true"
+                                src="https://pbs.twimg.com/profile_images/1676380087472513024/sbNBfYZs_normal.jpg"
+                                class="css-9pa8cd" />
+                        </div>
+                    </div>
+                    <div class="my-2 w-[100%] items-center justify-between">
+                        <div class="userName flex items-center font-bold" style="padding-left: -35px;">
+                            <p>Jujutsu Kaisen</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="24px" viewBox="0 0 22 22"
+                                aria-label="Verified account" role="img"
+                                class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                data-testid="icon-verified">
+                                <g>
+                                    <path clip-rule="evenodd"
+                                        d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                        fill="#1393ec" fill-rule="evenodd"></path>
+                                </g>
+                            </svg>
+                            <p style="opacity: 0.5;" class="px-2">@JJKPerfectShort</p>
+                            <p style="opacity: 0.5;">. 21h</p>
+                        </div>
+                        <div class="blogs justify-center" hidden;>
+                            <div class="contain my-1 mr-5 p-2">
+                                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, asperiores!
+                                </span>
+                                <div class="images my-1 flex justify-center"
+                                    style="border: 0.1px solid rgb(59, 59, 59);">
+                                    <img class="h-[50%] w-[50%]" alt="Roshan Yadav" draggable="true"
+                                        src="https://pbs.twimg.com/media/GXvjE7mW0AAUPLf?format=jpg&name=900x900" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+            </div>
+
+            <div class="cardcontainer">
+                <div class="card flex">
+                    <div class="mx-3 my-3 w-[10%] items-center justify-center">
+                        <div class="img">
+                            <img class="rounded-3xl" alt="Roshan Yadav" draggable="true"
+                                src="https://pbs.twimg.com/profile_images/1746854639243563008/509EItpg_normal.jpg"
+                                class="css-9pa8cd" />
+                        </div>
+                    </div>
+                    <div class="my-2 w-[100%] items-center justify-between">
+                        <div class="userName flex items-center font-bold" style="padding-left: -35px;">
+                            <p>WallPapers</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#B89230">
+                                <path
+                                    d="M240-400q0 52 21 98.5t60 81.5q-1-5-1-9v-9q0-32 12-60t35-51l113-111 113 111q23 23 35 51t12 60v9q0 4-1 9 39-35 60-81.5t21-98.5q0-50-18.5-94.5T648-574q-20 13-42 19.5t-45 6.5q-62 0-107.5-41T401-690q-39 33-69 68.5t-50.5 72Q261-513 250.5-475T240-400Zm240 52-57 56q-11 11-17 25t-6 29q0 32 23.5 55t56.5 23q33 0 56.5-23t23.5-55q0-16-6-29.5T537-292l-57-56Zm0-492v132q0 34 23.5 57t57.5 23q18 0 33.5-7.5T622-658l18-22q74 42 117 117t43 163q0 134-93 227T480-80q-134 0-227-93t-93-227q0-129 86.5-245T480-840Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="24px" viewBox="0 0 22 22"
+                                aria-label="Verified account" role="img"
+                                class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                data-testid="icon-verified">
+                                <g>
+                                    <path clip-rule="evenodd"
+                                        d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                        fill="#1393ec" fill-rule="evenodd"></path>
+                                </g>
+                            </svg>
+                            <p style="opacity: 0.5;" class="px-2">@Papers_app</p>
+                            <p style="opacity: 0.5;">. 11h</p>
+                        </div>
+                        <div class="blogs justify-center" hidden;>
+                            <div class="contain my-1 mr-5 p-2">
+                                <span> Lorem ipsum dolor sit amet. </span>
+                                <div class="images my-1 flex justify-center p-2"
+                                    style="border: 0.1px solid rgb(59, 59, 59);">
+                                    <img class="h-[50%] w-[50%]" alt="Roshan Yadav" draggable="true"
+                                        src="https://pbs.twimg.com/media/GXv_DCuakAEM2Q-?format=jpg&name=small" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+            </div>
+
+            <div class="cardcontainer">
+                <div class="card flex">
+                    <div class="mx-3 my-3 w-[10%] items-center justify-center">
+                        <div class="img">
+                            <img class="rounded-3xl" alt="Roshan Yadav" draggable="true"
+                                src="https://pbs.twimg.com/profile_images/1615753720691556375/3IlAzsa0_normal.jpg"
+                                class="css-9pa8cd" />
+                        </div>
+                    </div>
+                    <div class="my-2 w-[100%] items-center justify-between">
+                        <div class="userName flex items-center font-bold" style="padding-left: -35px;">
+                            <p>Jujutsu Kaisen</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="24px" viewBox="0 0 22 22"
+                                aria-label="Verified account" role="img"
+                                class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                data-testid="icon-verified">
+                                <g>
+                                    <path clip-rule="evenodd"
+                                        d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                        fill="#1393ec" fill-rule="evenodd"></path>
+                                </g>
+                            </svg>
+                            <p style="opacity: 0.5;" class="px-2">@JJKPerfectShort</p>
+                            <p style="opacity: 0.5;">. 21h</p>
+                        </div>
+                        <div class="blogs justify-center" hidden;>
+                            <div class="contain my-1 mr-5 p-2">
+                                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, asperiores!
+                                </span>
+                                <div class="images my-1 flex justify-center"
+                                    style="border: 0.1px solid rgb(59, 59, 59);">
+                                    <img class="object-contain" alt="Roshan Yadav" draggable="true"
+                                        src="https://pbs.twimg.com/media/GXxEbvdXUAAwBi3?format=jpg&name=small" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+            </div>
+
+            <div class="cardcontainer">
+                <div class="card flex">
+                    <div class="mx-3 my-3 w-[10%] items-center justify-center">
+                        <div class="img">
+                            <img class="" alt="Roshan Yadav" draggable="true"
+                                src="https://pbs.twimg.com/profile_images/1686090348861554688/aRC6gGo9_bigger.jpg"
+                                class="css-9pa8cd" />
+                        </div>
+                    </div>
+                    <div class="my-2 w-[100%] items-center justify-between">
+                        <div class="userName flex items-center font-bold" style="padding-left: -35px;">
+                            <p>Microsoft Edge</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" width="24px" viewBox="0 0 22 22"
+                                aria-label="Verified account" role="img"
+                                class="r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                data-testid="icon-verified">
+                                <g>
+                                    <path clip-rule="evenodd"
+                                        d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                        fill="#e2b418" fill-rule="evenodd"></path>
+                                </g>
+                            </svg>
+                            <p style="opacity: 0.5;" class="px-2">@MicrosoftEdge</p>
+                            <p style="opacity: 0.5;">. 16h</p>
+                        </div>
+                        <div class="blogs justify-center" hidden;>
+                            <div class="contain my-1 mr-5 p-2">
+                                <span> When the cashback hits... </span>
+                                <div class="images my-1 flex justify-center"
+                                    style="border: 0.1px solid rgb(59, 59, 59);">
+                                    <img class="object-contain" alt="Roshan Yadav" draggable="true"
+                                        src="https://pbs.twimg.com/media/GXx2P4JWsAAenwt?format=jpg&name=small" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line" style="border-bottom: 0.1px solid rgb(59, 59, 59);"></div>
+            </div>
+
+        </div>
+
+        <div class="right px-3 py-2 hidden lg:block lg:w-[40%] sticky top-0" style="max-height: 150vh; max-width: 22vw;">
+            <div class="search rounded-md p-1">
+                <div class="input flex items-center justify-center rounded-3xl px-4 py-2"
+                    style="border: 0.1px solid rgb(59, 59, 59);">
+                    <span class="material-symbols-outlined">Search</span>
+                    <input class="w-full bg-black px-2 py-1 text-white" style="outline: none;" type="search"
+                        placeholder="Search" />
+                </div>
+            </div>
+            <div class="subscribe my-2 rounded-md p-1" style="border: 0.1px solid rgb(59, 59, 59);">
+                <div class="mx-2" style="font-size: x-large; font-weight: 600;">
+                    <h2>Subscribe to Premium</h2>
+                </div>
+                <div class="mx-2" style="font-size:smaller; font-weight: 100;">
+                    <p>Subscribe to unlock new features and if eligible,receive a share of ads revenue.</p>
+                </div>
+                <button class="mx-2 my-2 rounded-3xl border px-4 py-1"
+                    style="font-size:large; font-weight: 400; background-color: rgb(60, 179, 225); border: none;">Subscribe</button>
+            </div>
+            <div class="what my-2 rounded-md p-1" style="border: 0.1px solid rgb(59, 59, 59);">
+                <div class="mx-2" style="font-size: x-large; font-weight: 500;">
+                    <h2>What`s happening</h2>
+                </div>
+                <div class="imginfo mx-2 my-2 flex">
+                    <img class="w-[30%] rounded-xl"
+                        src="https://pbs.twimg.com/semantic_core_img/1833532555393384448/rZj30fsd?format=jpg&name=240x240"
+                        alt="" />
+                    <div class="info text-gray-600">
+                        <p class="mx-2" style="font-size: 15px; color: rgb(250, 246, 246);">Milan fashion Week 2024</p>
+                        <p class="mx-2" style="font-size: 15px; color: rgb(255, 255, 255);">Womenswear SS25</p>
+                        <p class="mx-2 my-1" style="font-size: 10px; color: gray;">fashion . Live</p>
+                    </div>
+                </div>
+                <div class="trends">
+                    <div class="mx-3 my-3 flex items-center justify-between">
+                        <div class="trend my-1">
+                            <p style="font-size: 11px; color: gray;">Trending in India</p>
+                            <p style="font-size: 14px;">#Roshan</p>
+                            <p style="font-size: 11px; color: gray;">10K posts</p>
+                        </div>
+                        <div class="iconmore">
+                            <img src="/Images/More.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="mx-3 my-2 flex items-center justify-between">
+                        <div class="trend my-1">
+                            <p style="font-size: 11px; color: gray;">Trending in India</p>
+                            <p style="font-size: 14px;">#Roshani</p>
+                            <p style="font-size: 11px; color: gray;">5K posts</p>
+                        </div>
+                        <div class="iconmore">
+                            <img src="/Images/More.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="mx-3 my-2 flex items-center justify-between">
+                        <div class="trend my-1">
+                            <p style="font-size: 11px; color: gray;">Trending in India</p>
+                            <p style="font-size: 14px;">#Santosh</p>
+                            <p style="font-size: 11px; color: gray;">100K posts</p>
+                        </div>
+                        <div class="iconmore">
+                            <img src="/Images/More.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="mx-3 my-2 flex items-center justify-between">
+                        <div class="trend my-1">
+                            <p style="font-size: 11px; color: gray;">Trending in India</p>
+                            <p style="font-size: 14px;">#Phulwasha</p>
+                            <p style="font-size: 11px; color: gray;">90K posts</p>
+                        </div>
+                        <div class="iconmore">
+                            <img src="/Images/More.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="mx-3 my-2 flex items-center justify-between">
+                        <div class="trend my-1">
+                            <p style="font-size: 11px; color: gray;">Trending in India</p>
+                            <p style="font-size: 14px;">#Raj</p>
+                            <p style="font-size: 11px; color: gray;">8K posts</p>
+                        </div>
+                        <div class="iconmore">
+                            <img src="/Images/More.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="who my-2 rounded-md p-1" style="border: 0.1px solid rgb(59, 59, 59);">
+                <div class="mx-2" style="font-size: x-large; font-weight: 500;">
+                    <h2>Who to follow</h2>
+                </div>
+                <div class="imginfo mx-2 my-3">
+                    <div class="profile my-2 flex items-center p-1">
+                        <img class="w-10 rounded-3xl"
+                            src="https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_normal.jpg" alt="" />
+                        <div class="info mx-2 flex w-full justify-between">
+                            <div class="id">
+                                <p class="mx-1" style="font-size: 14px; color: rgb(250, 246, 246);">Bill Gates</p>
+                                <p class="mx-1" style="font-size: 12px; color: rgb(116, 114, 114);">@BillGates</p>
+                            </div>
+                            <button class="mx-2 my-2 rounded-3xl border px-4 py-1"
+                                style="font-size:large; font-weight: 400; background-color: rgb(60, 179, 225); border: none;">Follow</button>
+                        </div>
+                    </div>
+                    <div class="profile my-2 flex items-center p-1">
+                        <img class="w-10 rounded-3xl"
+                            src="https://pbs.twimg.com/profile_images/1800520500432515073/tMB_rJVh_bigger.jpg" alt="" />
+                        <div class="info mx-2 flex w-full justify-between">
+                            <div class="id">
+                                <p class="mx-1" style="font-size: 14px; color: rgb(250, 246, 246);">PMO India</p>
+                                <p class="mx-1" style="font-size: 12px; color: rgb(116, 114, 114);">@PMOIndia</p>
+                            </div>
+                            <button class="mx-2 my-2 rounded-3xl border px-4 py-1"
+                                style="font-size:large; font-weight: 400; background-color: rgb(60, 179, 225); border: none;">Follow</button>
+                        </div>
+                    </div>
+                    <div class="profile my-2 flex items-center p-1">
+                        <img class="w-10 rounded-3xl"
+                            src="https://pbs.twimg.com/profile_images/1744862434840719360/fHeigOBj_bigger.jpg" alt="" />
+                        <div class="info mx-2 flex w-full justify-between">
+                            <div class="id">
+                                <p class="mx-1" style="font-size: 14px; color: rgb(250, 246, 246);">cricket.com.au</p>
+                                <p class="mx-1" style="font-size: 12px; color: rgb(116, 114, 114);">@cricketcomau</p>
+                            </div>
+                            <button class="mx-2 my-2 rounded-3xl border px-4 py-1"
+                                style="font-size:large; font-weight: 400; background-color: rgb(60, 179, 225); border: none;">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="font-size: 12px;color: gray;display: flex; flex-wrap: wrap;">
+                <p class="mx-2">Terms of Service</p>
+                <p class="mx-2">Privacy Policy</p>
+                <p class="mx-2">Cookie Policy</p>
+                <p class="mx-2">Accessibility</p>
+                <p class="mx-2">Ads info</p>
+                <p class="mx-2">More...</p>
+                <p class="mx-2">© 2024 X Corp.</p>
+            </div>
+        </div>
+
+        <div class="icon flex bg-black md:hidden w-[100%] sticky bottom-0 h-[50px] justify-center">
+            <div class="list flex">
+                <ul class="flex flex-row font-bold text-white justify-center items-center">
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M226.67-186.67h140v-246.66h226.66v246.66h140v-380L480-756.67l-253.33 190v380ZM160-120v-480l320-240 320 240v480H526.67v-246.67h-93.34V-120H160Zm320-352Z" />
+                    </svg>
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M792-120.67 532.67-380q-30 25.33-69.64 39.67Q423.39-326 378.67-326q-108.44 0-183.56-75.17Q120-476.33 120-583.33t75.17-182.17q75.16-75.17 182.5-75.17 107.33 0 182.16 75.17 74.84 75.17 74.84 182.27 0 43.23-14 82.9-14 39.66-40.67 73l260 258.66-48 48Zm-414-272q79.17 0 134.58-55.83Q568-504.33 568-583.33q0-79-55.42-134.84Q457.17-774 378-774q-79.72 0-135.53 55.83-55.8 55.84-55.8 134.84t55.8 134.83q55.81 55.83 135.53 55.83Z" />
+                    </svg>
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M146.67-200q-27 0-46.84-19.83Q80-239.67 80-266.67v-426.66q0-27 19.83-46.84Q119.67-760 146.67-760h666.66q27 0 46.84 19.83Q880-720.33 880-693.33v426.66q0 27-19.83 46.84Q840.33-200 813.33-200H146.67Zm406.66-313.33h260v-180h-260v180ZM146.67-266.67h340v-426.66h-340v426.66Zm173.33-160q-21.67 0-37.5-15.83-15.83-15.83-15.83-37.83t15.83-37.5q15.83-15.5 37.83-15.5t37.5 15.55q15.5 15.56 15.5 37.78 0 21.67-15.55 37.5-15.56 15.83-37.78 15.83Zm233.33 160h260v-180h-260v180Z" />
+                    </svg>
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M160-200v-66.67h80v-296q0-83.66 49.67-149.5Q339.33-778 420-796v-24q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v24q80.67 18 130.33 83.83Q720-646.33 720-562.67v296h80V-200H160Zm320-301.33ZM480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM306.67-266.67h346.66v-296q0-72-50.66-122.66Q552-736 480-736t-122.67 50.67q-50.66 50.66-50.66 122.66v296Z" />
+                    </svg>
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67v-506.66q0-27 19.83-46.84Q119.67-800 146.67-800h666.66q27 0 46.84 19.83Q880-760.33 880-733.33v506.66q0 27-19.83 46.84Q840.33-160 813.33-160H146.67ZM480-454.67 146.67-670v443.33h666.66V-670L480-454.67Zm0-66.66 330.67-212H150l330 212ZM146.67-670v-63.33V-226.67-670Z" />
+                    </svg>
+                    <svg class="my-2 mx-[12px]" xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="40px" fill="#e8eaed">
+                        <path
+                            d="M0-240v-56.33q0-40.05 42.33-65.19 42.34-25.15 111.25-25.15 12.45 0 23.93.5 11.49.5 22.49 2.27-10 18.57-15 38.11-5 19.55-5 40.79v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-21.91-4.5-41.29t-14.17-37.56q11-1.82 22.28-2.32 11.29-.5 23.06-.5 69 0 111.16 24.68Q960-337.31 960-296.33V-240H780Zm-471.67-66.67H652v-4q-3.33-31.33-52.17-52Q551-383.33 480-383.33t-119.83 20.66Q311.33-342 308.33-310v3.33ZM153.04-420q-30.04 0-51.54-21.54T80-493.33q0-30.67 21.54-52 21.54-21.34 51.79-21.34 30.67 0 52 21.34 21.34 21.33 21.34 52.29 0 30.04-21.34 51.54Q184-420 153.04-420Zm653.34 0q-30.05 0-51.55-21.54-21.5-21.54-21.5-51.79 0-30.67 21.55-52 21.54-21.34 51.79-21.34 30.66 0 52 21.34Q880-524 880-493.04q0 30.04-21.33 51.54-21.34 21.5-52.29 21.5ZM480-480q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm.23-66.67q22.77 0 37.94-15.4 15.16-15.4 15.16-38.16 0-22.77-15.26-37.94-15.27-15.16-37.84-15.16-22.56 0-38.06 15.26-15.5 15.27-15.5 37.84 0 22.56 15.4 38.06 15.4 15.5 38.16 15.5Zm.1 240ZM480-600Z" />
+                    </svg>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
